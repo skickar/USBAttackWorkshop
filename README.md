@@ -4,15 +4,15 @@ Files for the USB attack workshop
 Index:
 
 BasicExampleDigispark.ino	- Simple example to show keyboard function
-
-
-Grabify_Payload	Create - Payload template for making a Grabify.link tracking script
-
-
-MacOSOpenTerminal.ino	- Script to open terminal in MacOS 
-
-
-Payload_Crontab	- Payload template to make crontab task that is recurring every 60 seconds
-
-
-RaspberryPiOpenTerminal.ino - Opens a terminal window on a Raspberry Pi
+Digispark HID Attacks 2019.pdf - Old Slides
+Grabify_Payload -	Creates a basic Grabify Payload	
+MacOSOpenTerminal.ino	- Payload to open the terminal on MacOS 
+MouseJiggler.ino -	Code from air-gap.com.au to make mouse jiggler, small movements	
+MouseJigglerBIG.ino -	Code from air-gap.com.au to make mouse jiggler, large movements
+Payload_Crontab -	A payload to create a crontab job	
+README.md	- README Document	
+RaspberryPiOpenTerminal.ino	- Payload to open a terminal on a Raspberry Pi
+Rickroll_MacOS.ino -	MacOS Script for RickRolling	
+Rickroll_ubuntu.ino -	Rickrolling Payload for Ubuntu/Linux	
+WindowsRickroll.ino -	PowerShell RickRoll Payload	
+WindowsTrackingPayload.ino - Basic payload to run a tracking URL on a Windows computer
