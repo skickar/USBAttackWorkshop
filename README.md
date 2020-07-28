@@ -1,6 +1,8 @@
 # USBAttackWorkshop
 Files for the USB attack workshop
 
+Support us with a board here: https://hackerinterchange.com/products/copy-of-pre-flashed-wi-fi-duck-kit
+
 Index:
 
 BasicExampleDigispark.ino	- Simple example to show keyboard function
